@@ -1,0 +1,18 @@
+using System;
+
+namespace Net_Repo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Math operations
+            int    a = 40;
+            int    b = 43;
+            int    c = a + b;            
+            //40 + 43 = 83 then subtract the result of 43 x 40 which is 1.720
+            //
+            Console.WriteLine(a + b - b * a);
+        }
+    }
+}
